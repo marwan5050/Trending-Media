@@ -38,8 +38,6 @@ export default function App() {
   
 
   
-
-  
 // create function to get data from localstorage and pass it to checklogin
  function getUserInfo(){
 
@@ -88,8 +86,6 @@ setLoginName(fname)
 
  
 
- // Get the search query from the URL
-//  const searchQuery = new URLSearchParams(location.search).get('query');
  
 
   return (
