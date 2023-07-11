@@ -1,0 +1,56 @@
+1- create all components i need in my strucure project 
+2- install my dependencies
+3- create basic style and fonts in my project
+4- start create my navbar 
+5- statr routng using reacte router dom
+6- start authintcation -->
+     A- start register design and logical coding and validation
+     b- start login design and logical coding and validation
+     c- start logout logical compiled
+
+7- sayhello to login user logic code 
+   -create state loginName in app compent 
+   - create function loginUserFirstName() take one paramter and pass this para in setLoginName methode
+   -call setLoginName method in function loginUserFirstName()
+   - pass function to login compenet as props 
+   -in login compent call that function loginUserFirstName() and pass user name in the para
+   and in login component save user name in localstorage 
+   - pass loginName variable state to navbar component to use the name in navbar
+   and create design to it
+
+8- start authorization to protect routes--->
+    -in protectedRoute checked if locastorage is true that mean if has data or not 
+    - so if true i used outlet hook to retern the render of parent routes 
+    -in app component which include the routing i created one route and in it's element 
+    pass the protectedRoute component and inside this route create other component routes 
+    as nested and child of parent route which have protectedRoute
+
+9- start using state mangment create context technic 
+- create meidaContext.jsx component in this component start createContext and assign it into variable media context
+- create function mediaContextProvider() and take para props which contain data i want pass to children compnent 
+this function retun provider which contain value att to provide data to children through props
+- in body of this function created 3 states trendingMovies, trendingTv,trendinActors with intial value array 
+- second create function getMedia() wich get data from api and this function take 3 paramters 
+   first--> type of media 
+   second --> method of each state which i created 
+   third -->  number of data to display from home or movies or tv components       
+- in app component where contain routing, import mediaContextProvider and surround each route 
+- in home component start using mediaContext variable which contain create context and distrcut data 
+and using useeffect hook to display data from api 
+
+10- handdle design of home , movies , tv components 
+
+11-display movie , tv, actor details -->
+  -in home component surround the display data of mvies by link imported from 
+  react-router-dom and pass the id to moviedetails component 
+  -in app compoent surround routing by mediaContextProvider so i can using useContext 
+  - import moviedetails component and create route and pass id through path and in elempent
+  moviedetails compoent of the route like this 
+  <Route path='/movies/:id' element={<MovieDetails/>}/>
+  - in movieDetails compoent used useParam hook to get the id wich i passed 
+  - used useContext hook to distruct data and get trendingMoives array 
+  - then in useEffect hook start search the array by using find() method 
+  - create state movie to use method setMovie after saved data in localastorage 
+  and also when get stored data and use movie valriable in display data
+  - saved data in localstorage to handlle behavior of refresh page and make data still display 
+  
