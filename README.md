@@ -61,7 +61,14 @@ Once the Trending Media application is running locally or deployed, you can star
 
 
 # Features
-- #Authentication: Users can register, login, and logout to access the application.
+
+- Authentication: Users can register, login, and logout to access the application.
+- Authorization: Protected routes control access to certain components based on user authentication status.
+- User Welcome: After login, the application greets the user with "Welcome, [username]" message.
+- Routing: The application uses react-router-dom v6.1 for smooth navigation between different components.
+- API Integration: The app fetches data from external APIs to display trending media content.
+- Responsive Design: The user interface is designed to be responsive, ensuring a great user experience on various devices.
+- State Management: The project utilizes Context API to manage state across components effectively.
 
 
 
