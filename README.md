@@ -21,8 +21,7 @@ Moreover, the Trending Media app integrates with external APIs to fetch up-to-da
 # Installation
 
 - 01- Clone the repository using the following command:
-# Getting Started with Create React App
-git clone https://github.com/marwan5050/Trending-Media.git
+    git clone https://github.com/marwan5050/Trending-Media.git
 
 - 02- Navigate to the project directory:
     cd Trending-Media
@@ -31,14 +30,34 @@ git clone https://github.com/marwan5050/Trending-Media.git
     npm install
   
 - 04 Start the development server:
- npm start
+   npm start
 
 - Ensure that you have Node.js and npm (Node Package Manager) installed on your system before proceeding with the installation.
 
+# Usage
 
+Once the Trending Media application is running locally or deployed, you can start exploring trending movies, TV shows, and series. The application offers the following functionalities:
 
+# User Authentication
 
+- Register: New users can create an account by providing their username, email, and password.
+- Login: Existing users can log in using their registered email and password.
+- Logout: Logged-in users can log out from the application to end their session.
 
+# Trending Media Content
+
+  - Home Page: After logging in, users are redirected to the home page, where they can find trending movies, TV shows, and series.
+  - Media Details: Clicking on a media item will lead users to its detailed page, where they can view additional information about the media.
+
+# Protected Routes
+
+- Protected Pages: Certain pages, such as user profile or settings, are protected and require authentication to access. Unauthorized users will be redirected to the login page.
+
+# Responsive Design
+
+- The Trending Media application is designed to be responsive, adapting to various screen sizes and devices.
+  
+  Feel free to explore the application and interact with its different features.
 
 
 
