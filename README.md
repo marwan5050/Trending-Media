@@ -21,7 +21,7 @@ Moreover, the Trending Media app integrates with external APIs to fetch up-to-da
 # Installation
 
 - 01- Clone the repository using the following command:
-    git clone https://github.com/marwan5050/Trending-Media.git
+     git clone https://github.com/marwan5050/Trending-Media.git
 
 - 02- Navigate to the project directory:
     cd Trending-Media
@@ -30,7 +30,7 @@ Moreover, the Trending Media app integrates with external APIs to fetch up-to-da
     npm install
   
 - 04 Start the development server:
-   npm start
+    npm start
 
 - Ensure that you have Node.js and npm (Node Package Manager) installed on your system before proceeding with the installation.
 
@@ -58,6 +58,24 @@ Once the Trending Media application is running locally or deployed, you can star
 - The Trending Media application is designed to be responsive, adapting to various screen sizes and devices.
   
   Feel free to explore the application and interact with its different features.
+
+
+# Features
+- #Authentication: Users can register, login, and logout to access the application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
