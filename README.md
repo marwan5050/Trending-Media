@@ -1,4 +1,47 @@
+# Project Title-> Trending Media
+
+# Table of Contents
+- Introduction
+- Installation
+- Usage
+- Features
+- Dependencies
+- Technologies Used
+- Contributing
+- License
+
+# Introduction
+
+The Trending Media project is a React.js application that allows users to explore trending movies, TV shows, and series. It provides a user-friendly interface to browse through popular entertainment content. The application is built using modern React.js best practices and follows a responsive design to ensure a seamless experience across various devices.
+
+The project implements various features, including authentication with login, register, and logout functionalities. Users can sign up and log in to the application to access personalized content and enjoy additional features. Protected routes are implemented to restrict access to certain pages based on user authentication status, ensuring a secure browsing experience.
+
+Moreover, the Trending Media app integrates with external APIs to fetch up-to-date trending media data, ensuring that users always have access to the latest and most popular content. The application's state management is handled efficiently using the Context API and React hooks like useState, useEffect, useRef, and useNavigate.
+
+# Installation
+
+- 01- Clone the repository using the following command:
 # Getting Started with Create React App
+git clone https://github.com/marwan5050/Trending-Media.git
+
+- 02- Navigate to the project directory:
+    cd Trending-Media
+
+- 03- Install the required dependencies using npm:
+    npm install
+  
+- 04 Start the development server:
+ npm start
+
+- Ensure that you have Node.js and npm (Node Package Manager) installed on your system before proceeding with the installation.
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
